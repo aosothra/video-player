@@ -1,4 +1,10 @@
+.player-controls-panel{
+    background-color: black;
+}
+
 .player-controls-button{
+    color: white;
+    background-color: transparent;
     border-style: none;
     cursor: pointer;
 }
