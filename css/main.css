@@ -8,6 +8,7 @@
 
 .player-controls-button{
     color: white;
+    font-size: 24px;
     background-color: transparent;
     border-style: none;
     cursor: pointer;
@@ -15,6 +16,7 @@
 
 .player-container{
     display: flex;
+    line-height: 2.5;
     flex-direction: column;
     box-shadow: 0 0 10px #000000d5
 }
