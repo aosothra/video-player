@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.player-video-panel{
+    flex-grow: 1;
+}
+
 .player-controls-button{
     color: white;
     background-color: transparent;
@@ -10,5 +14,7 @@
 }
 
 .player-container{
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 0 10px #000000d5
 }
