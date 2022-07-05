@@ -26,7 +26,8 @@
 
 .player-container{
     display: flex;
-    line-height: 2.5;
+    width: 800px; 
+    height: 600px;
     flex-direction: column;
     box-shadow: 0 0 10px #000000d5
 }
