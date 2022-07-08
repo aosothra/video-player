@@ -14,11 +14,36 @@ body{
     margin-right: 4px;
 }
 
-.player-controls-spacer{
+.player-controls-progress{
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+.player-controls-progressbar{
+    flex-grow: 1;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.player-controls-progressbar > *{
+    display: inline-block;
+    background-color: #f8104d;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.player-controls-slider{
+    display: inline-block;
+    margin-left: -4px;
+    width: 7px;
+    height: 7px;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 3px;
+    border-color: white;
+    background-color: #f8104d;
 }
 
 .player-video-panel{
