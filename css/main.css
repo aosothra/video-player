@@ -1,34 +1,55 @@
+body{
+    margin: 6px;
+}
+
 .player-controls-panel{
     display: flex;
-    padding-bottom: 4px;
+    align-items: center;
+    padding: 4px 2px;
     flex-direction: row;
     background-color: black;
 }
 
+.player-controls-panel > *{
+    margin-right: 4px;
+}
+
 .player-controls-spacer{
     flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .player-video-panel{
     flex-grow: 1;
 }
 
+.player-controls-info{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
 .player-controls-button{
     color: white;
-    font-size: 15px;
-    width: 24px;
-    height: 24px;
-    margin-left: 2px;
-    margin-right: 3px;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
     background-color: transparent;
     border-style: none;
     cursor: pointer;
 }
 
+.player-controls-button:last-child{
+    margin-right: 0px;
+}
+
 .player-container{
     display: flex;
-    width: 640px; 
-    height: 480px;
+    width: 800px; 
+    height: 600px;
     flex-direction: column;
     box-shadow: 0 0 10px #000000d5
 }

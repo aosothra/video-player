@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- FAVICON -->
@@ -25,7 +28,10 @@
         <button class="player-controls-button js-pause-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
         <button class="player-controls-button js-mute-button"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
         <button class="player-controls-button js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
-        <div class="player-controls-spacer"></div>
+        <div class="player-controls-spacer">
+          <div class="js-current-time player-controls-info"></div>
+          <div class="js-duration player-controls-info"></div>
+        </div>
         <button class="player-controls-button js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
       </div>      
     </div>
