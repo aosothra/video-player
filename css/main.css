@@ -1,5 +1,6 @@
 .player-controls-panel{
     display: flex;
+    padding-bottom: 4px;
     flex-direction: row;
     background-color: black;
 }
@@ -14,11 +15,11 @@
 
 .player-controls-button{
     color: white;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size: 15px;
+    width: 24px;
+    height: 24px;
+    margin-left: 2px;
+    margin-right: 3px;
     background-color: transparent;
     border-style: none;
     cursor: pointer;
@@ -26,8 +27,8 @@
 
 .player-container{
     display: flex;
-    width: 800px; 
-    height: 600px;
+    width: 640px; 
+    height: 480px;
     flex-direction: column;
     box-shadow: 0 0 10px #000000d5
 }
