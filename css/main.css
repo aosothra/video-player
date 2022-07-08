@@ -44,6 +44,15 @@ body{
     border-width: 3px;
     border-color: white;
     background-color: #f8104d;
+
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.player-controls-progressbar:hover .player-controls-slider{
+    opacity: 1;
 }
 
 .player-video-panel{
